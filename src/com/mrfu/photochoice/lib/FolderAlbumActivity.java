@@ -222,4 +222,8 @@ public class FolderAlbumActivity extends Activity {
 		return null;
 	}
 	
+
+	public void onBackClick(View view){
+		finish();
+	}
 }

@@ -296,4 +296,9 @@ public class PhotoActivity extends Activity{
 			this.isFinish = isFinish;
 		}
 	}
+	
+
+	public void onBackClick(View view){
+		finish();
+	}
 }

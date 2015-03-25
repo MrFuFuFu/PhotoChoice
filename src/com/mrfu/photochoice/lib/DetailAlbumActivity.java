@@ -190,7 +190,7 @@ public class DetailAlbumActivity extends Activity {
 						mSelectedImageItems.remove(entry.bucketUrl);
 					}
 					if (title_button != null) {
-						title_button.setText("("+mSelectedImageItems.size()+")选择");
+						title_button.setText("("+mSelectedImageItems.size()+")" + getResources().getString(R.string.choice));
 					}
 				}else {//single select picture
 					mSelectedImageItems.add(entry.bucketUrl);
@@ -258,6 +258,10 @@ public class DetailAlbumActivity extends Activity {
 		intent.putExtra("position", mPosition);
 		sendBroadcast(intent);
 		setResult(RESULT_OK);
+		finish();
+	}
+	
+	public void onBackClick(View view){
 		finish();
 	}
 }
