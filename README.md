@@ -18,7 +18,7 @@ Eclipse
 ![preview1](http://ww2.sinaimg.cn/large/005tyPhMgw1eqi26rpll6j30k00zk416.jpg)
 
 
-[Download Demo](https://github.com/MrFuFuFu/MrFuPhotoChoice/download_demo/MrFuPhotoChoice.apk)
+[Download Demo](https://github.com/MrFuFuFu/MrFuPhotoChoice/blob/master/download_demo/MrFuPhotoChoice.apk)
 
 
 ## Open source projects
