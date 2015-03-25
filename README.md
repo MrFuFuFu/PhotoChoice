@@ -1,35 +1,49 @@
-# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+MrFu_PhotoChoice
+=====================
 
-* * *
+## Android library
 
-# Simple Pomodoro [![Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.dacer.simplepomodoro)
+My Blog--[Mr.傅的专栏](http://blog.csdn.net/fu222cs98/)
 
-<h3>This a pomodoro timer android app.</h3>
-<p>
-Features:<br>
-• FAST MODE - Auto lock/unlock screen and you can forget your lockscreen button, just focus on your work!<br>
-• Full function - White/Black theme, lights on, weekly statistics, vibrations, alert, etc.<br>
-• Beautiful & Simple - SimplePomodoro is beautifully designed, simple to use and user friendly.<br>
-• Google task - Sync your tasks between your device and Google.
-</p>
+Rarely updated blog, but I will post more project to github, I will try to blog much more, although my poor literary talent, but also how good the technology is not necessarily
 
-## Building
-Import [PullToRefresh-ListView](https://github.com/erikwt/PullToRefresh-ListView) and [Android-ViewPagerIndicator](https://github.com/JakeWharton/Android-ViewPagerIndicator) as library manaully.
+## IDE
 
-## License
+Eclipse
 
-* MIT License
+## Preview
 
-## Thanks
+![preview1](http://ww4.sinaimg.cn/large/005tyPhMgw1eqi26uut2aj30k00zkaex.jpg)
+![preview1](http://ww3.sinaimg.cn/large/005tyPhMgw1eqi26w4xvyj30k00zkgou.jpg)
+![preview1](http://ww2.sinaimg.cn/large/005tyPhMgw1eqi26rpll6j30k00zk416.jpg)
 
-* [PullToRefresh-ListView](https://github.com/erikwt/PullToRefresh-ListView)
-* [Android-ViewPagerIndicator](https://github.com/JakeWharton/Android-ViewPagerIndicator)
-* tossking(Neo Tian)-帮助我发布到Google Play
 
-## Contributing
+[Download Demo](https://github.com/MrFuFuFu/MrFuPhotoChoice/download_demo/MrFuPhotoChoice.apk)
 
-Please fork this repository and contribute back using
-[pull requests](https://github.com/github/android/pulls).
 
-Any contributions, large or small, major features, bug fixes, additional
-language translations, unit/integration tests are welcomed
+## Open source projects
+
+* [Picasso](https://github.com/square/picasso)
+
+* [MediaChooser](https://github.com/learnNcode/MediaChooser)
+
+## More about me
+
+* [Mr.傅的专栏](http://blog.csdn.net/fu222cs98)
+
+License
+============
+
+    Copyright 2015 MrFu
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
