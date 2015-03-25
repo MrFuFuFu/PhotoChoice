@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+
+    <RelativeLayout 
+        android:id="@+id/reatlative_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+    
+    <ImageView
+        android:id="@+id/iv_folder_RowView1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_videoimg" />
+    
+	<ImageView
+	    android:id="@+id/iv_folder_icon_play1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:src="@drawable/icon_play" />
+	</RelativeLayout>
+    <TextView
+        android:id="@+id/tv_folder_RowView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/reatlative_folder"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#ff575757"
+        android:textSize="18sp" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp" 
+        android:layout_alignParentRight="true"       
+        android:src="@drawable/square_arrow"
+        />
+    
+
+</RelativeLayout>

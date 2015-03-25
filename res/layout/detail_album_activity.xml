@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg" >
+    
+    <include
+        android:id="@+id/title"
+        layout="@layout/nav_layout" />
+    
+	<GridView
+    android:id="@+id/gv_videoorimage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/title"
+    android:cacheColorHint="#00000000"
+    android:choiceMode="multipleChoice"
+    android:columnWidth="100dp"
+    android:drawSelectorOnTop="false"
+    android:gravity="center"
+    android:horizontalSpacing="5dp"
+    android:listSelector="@android:color/black"
+    android:numColumns="2"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="5dp" />
+</RelativeLayout>

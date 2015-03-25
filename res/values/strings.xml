@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MrFu-PhotoChoice</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="myalbumvideo">Mine Videos</string>
+    <string name="myalbumphoto">Mine Albums</string>
+    <string name="choice">choice</string>
+    <string name="loading">loading....</string>
+    <string name="nofile">no file</string>
+    <string name="max_picture">"Currently can only choose"</string>
+    <string name="picture">picture</string>
+    <string name="all_picture">all picture</string>
+    <string name="insert_sdcard">Please insert sdcard</string>
+    
+    <string-array name="array_image">
+        <item>Albums</item>   
+        <item>Camera</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

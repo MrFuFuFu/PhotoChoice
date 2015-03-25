@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MrFu-图片视频选择</string>
+    <string name="myalbumvideo">我的视频</string>
+    <string name="myalbumphoto">我的相册</string>
+    <string name="choice">选择</string>
+    <string name="loading">加载中....</string>
+    <string name="nofile">没有文件</string>
+    <string name="max_picture">"当前最多只能选择"</string>
+    <string name="picture">图片</string>
+    <string name="all_picture">所有图片</string>
+    <string name="insert_sdcard">请插入sdcard</string>
+    
+    <string-array name="array_image">
+        <item>相册</item>   
+        <item>拍照</item>
+        <item>取消</item>
+    </string-array>
+</resources>

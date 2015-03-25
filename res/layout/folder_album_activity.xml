@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff1f1f1" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/nav_layout" />
+
+    <ListView
+        android:id="@+id/lv_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="#ffe5e5e5"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="你的手机中没有符合条件的视频，请确认是否插入了SD卡，或者检查所录的视频是否小于25秒"
+        android:textColor="#ff9d9d9d"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
